@@ -1,5 +1,6 @@
 import com.repaso.e1.ArrayALaCarte;
 import com.repaso.e1.ArrayTwenty;
+import com.repaso.e1.Ibiza;
 import com.repaso.e1.Identidad;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -11,6 +12,7 @@ public class Main {
 //        Identidad identify = new Identidad();
 //        identify.identify();
 
+
                  // EJERCICIO 2 ⬇️
 //        ArrayALaCarte arrayCarte = new ArrayALaCarte();
 //        arrayCarte.createArray();
@@ -18,8 +20,14 @@ public class Main {
 
                 // EJERCICIO 3 ⬇️
 
-        ArrayTwenty arrayVeinte = new ArrayTwenty();
-        arrayVeinte.showArray();
+//        ArrayTwenty arrayVeinte = new ArrayTwenty();
+//        arrayVeinte.showArray();
+
+
+                // EJERCICIO 4 ⬇️
+        Ibiza ganar = new Ibiza();
+        ganar.ganador();
+
 
     }
 }

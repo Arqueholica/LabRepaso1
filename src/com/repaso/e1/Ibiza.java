@@ -13,13 +13,33 @@ public class Ibiza {
 
     Scanner scanner = new Scanner(System.in);
 
-    String[] participantes = {"Alain", "Jose", "Antonia", "MariCruz", "Edelmetria"};
+    String[] participantes = {"Alain", "Jose", "Antonia", "MariCruz", "Edelmetria", "Josefa", "Casiopea", "León", "Haydeé", "Athos"};
 
 
     public void ganador(){
-        for (int i = 0; i < participantes.length ; i++) {
-            System.out.println(participantes[i]);
+
+        System.out.println("¿Quieres selecciona al afortunado/a que se irá de crucero salvaje por Ibiza? Y/N");
+        String answer = scanner.nextLine();
+
+
+        if(answer.equalsIgnoreCase("Y")){
+
+            do{
+                int select = (int) (Math.random() * 10);
+                System.out.println("\n" + " El ganador/a es: " + participantes[select]);
+
+                System.out.println("¿Otra vez? Y/N");
+                answer = scanner.nextLine();
+                if(answer.equalsIgnoreCase("N")){
+                    System.out.println("Gracias por participar");
+                }
+
+            }while(answer.equalsIgnoreCase("Y"));
+
+        }else if(answer.equalsIgnoreCase("N")){
+            System.out.println("Hasta Otra");
         }
+
 
     }
 
