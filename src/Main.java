@@ -1,4 +1,5 @@
 import com.repaso.e1.*;
+import com.repaso.e2.Calculando;
 import com.repaso.e2.Saludo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -30,12 +31,17 @@ public class Main {
 
 // ------------------------------------------- A ENTREGAR ⬇️
 
-        Saludo saludo = new Saludo();
-        saludo.saludo1();
-        saludo.saludo2("hola","mari");
-        System.out.println(saludo.saludo3("hola","josefa"));
+//        SALUDOS ⬇️
 
+//        Saludo saludo = new Saludo();
+//        saludo.saludo1();
+//        saludo.saludo2("hola","mari");
+//        System.out.println(saludo.saludo3("hola","josefa"));
 
+//       CALCULAR ⬇️
+
+//        Calculando calcula = new Calculando();
+//        calcula.resultado();
 
     }
 }
