@@ -6,7 +6,8 @@ public class Ibiza {
     /*
     Crear array con nombres random
     forear el array e ifelsear
-    tiene que estar la condicion random matemática (variable?¿)
+    tiene que estar la condicion random matemática (variable?¿)⬇️
+    IMPORTANTE QUE SE TIENE QUE INICIAR EN EL BUCLE PORQUE SI NO ES SIEMPRE LA MISMA
 
     scanear para preguntar si se quiere iniciar, y luego seguir o parar
      */

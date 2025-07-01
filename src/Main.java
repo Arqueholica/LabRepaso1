@@ -1,13 +1,13 @@
-import com.repaso.e1.ArrayALaCarte;
-import com.repaso.e1.ArrayTwenty;
-import com.repaso.e1.Ibiza;
-import com.repaso.e1.Identidad;
+import com.repaso.e1.*;
+import com.repaso.e2.Saludo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
+
+// -------------------------------------- PRÁCTICAS ⬇️
                 // EJERCICIO 1 ⬇️
 //        Identidad identify = new Identidad();
 //        identify.identify();
@@ -25,8 +25,16 @@ public class Main {
 
 
                 // EJERCICIO 4 ⬇️
-        Ibiza ganar = new Ibiza();
-        ganar.ganador();
+//        Ibiza ganar = new Ibiza();
+//        ganar.ganador();
+
+// ------------------------------------------- A ENTREGAR ⬇️
+
+        Saludo saludo = new Saludo();
+        saludo.saludo1();
+        saludo.saludo2("hola","mari");
+        System.out.println(saludo.saludo3("hola","josefa"));
+
 
 
     }
