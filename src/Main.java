@@ -1,4 +1,5 @@
 import com.repaso.e1.*;
+import com.repaso.e2.CacatuaCacahuetes;
 import com.repaso.e2.Calculando;
 import com.repaso.e2.Saludo;
 
@@ -22,7 +23,7 @@ public class Main {
                 // EJERCICIO 3 ⬇️
 
 //        ArrayTwenty arrayVeinte = new ArrayTwenty();
-//        arrayVeinte.showArray();
+//        arrayVeinte.showArray(); --> se puede hacer también que se le pase al array como argumento
 
 
                 // EJERCICIO 4 ⬇️
@@ -42,6 +43,11 @@ public class Main {
 
 //        Calculando calcula = new Calculando();
 //        calcula.resultado();
+
+//        CACATÚA⬇️
+//
+        CacatuaCacahuetes pajaro = new CacatuaCacahuetes();
+        pajaro.pedir();
 
     }
 }
